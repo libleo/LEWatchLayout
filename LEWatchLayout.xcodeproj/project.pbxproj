@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3DB128D19CD403700A80946 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DB128C19CD403700A80946 /* Foundation.framework */; };
+		B3DB128F19CD403700A80946 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DB128E19CD403700A80946 /* CoreGraphics.framework */; };
+		B3DB129119CD403700A80946 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DB129019CD403700A80946 /* UIKit.framework */; };
+		B3DB129719CD403700A80946 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3DB129519CD403700A80946 /* InfoPlist.strings */; };
+		B3DB129919CD403700A80946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB129819CD403700A80946 /* main.m */; };
+		B3DB129D19CD403700A80946 /* WLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB129C19CD403700A80946 /* WLAppDelegate.m */; };
+		B3DB12A019CD403700A80946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DB129E19CD403700A80946 /* Main.storyboard */; };
+		B3DB12A319CD403700A80946 /* WLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB12A219CD403700A80946 /* WLViewController.m */; };
+		B3DB12A519CD403700A80946 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12A419CD403700A80946 /* Images.xcassets */; };
+		B3DB12AC19CD403700A80946 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DB12AB19CD403700A80946 /* XCTest.framework */; };
+		B3DB12AD19CD403700A80946 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DB128C19CD403700A80946 /* Foundation.framework */; };
+		B3DB12AE19CD403700A80946 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DB129019CD403700A80946 /* UIKit.framework */; };
+		B3DB12B619CD403700A80946 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12B419CD403700A80946 /* InfoPlist.strings */; };
+		B3DB12B819CD403700A80946 /* LEWatchLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB12B719CD403700A80946 /* LEWatchLayoutTests.m */; };
+		B3DB12DC19CD407800A80946 /* LECollectionViewWatchLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB12C319CD407800A80946 /* LECollectionViewWatchLayout.m */; };
+		B3DB12DD19CD407800A80946 /* alarm.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12C619CD407800A80946 /* alarm.png */; };
+		B3DB12DE19CD407800A80946 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12C719CD407800A80946 /* camera.png */; };
+		B3DB12DF19CD407800A80946 /* dots.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12C819CD407800A80946 /* dots.png */; };
+		B3DB12E019CD407800A80946 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12C919CD407800A80946 /* email.png */; };
+		B3DB12E119CD407800A80946 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12CA19CD407800A80946 /* favicon.ico */; };
+		B3DB12E219CD407800A80946 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12CB19CD407800A80946 /* map.png */; };
+		B3DB12E319CD407800A80946 /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12CC19CD407800A80946 /* message.png */; };
+		B3DB12E419CD407800A80946 /* movie.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12CD19CD407800A80946 /* movie.png */; };
+		B3DB12E519CD407800A80946 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12CE19CD407800A80946 /* music.png */; };
+		B3DB12E619CD407800A80946 /* passbook.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12CF19CD407800A80946 /* passbook.png */; };
+		B3DB12E719CD407800A80946 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12D019CD407800A80946 /* phone.png */; };
+		B3DB12E819CD407800A80946 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12D119CD407800A80946 /* photo.png */; };
+		B3DB12E919CD407800A80946 /* run.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12D219CD407800A80946 /* run.png */; };
+		B3DB12EA19CD407800A80946 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12D319CD407800A80946 /* setting.png */; };
+		B3DB12EB19CD407800A80946 /* spiral.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12D419CD407800A80946 /* spiral.png */; };
+		B3DB12EC19CD407800A80946 /* stopwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12D519CD407800A80946 /* stopwatch.png */; };
+		B3DB12ED19CD407800A80946 /* time.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12D619CD407800A80946 /* time.png */; };
+		B3DB12EE19CD407800A80946 /* translate.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12D719CD407800A80946 /* translate.png */; };
+		B3DB12EF19CD407800A80946 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12D819CD407800A80946 /* twitter.png */; };
+		B3DB12F019CD407800A80946 /* watch.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12D919CD407800A80946 /* watch.png */; };
+		B3DB12F119CD407800A80946 /* weather.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12DA19CD407800A80946 /* weather.png */; };
+		B3DB12F219CD407800A80946 /* weixin.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DB12DB19CD407800A80946 /* weixin.png */; };
+		B3DB12F519CD41A600A80946 /* LETestImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB12F419CD41A600A80946 /* LETestImageCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3DB12AF19CD403700A80946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3DB128119CD403700A80946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3DB128819CD403700A80946;
+			remoteInfo = LEWatchLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3DB128919CD403700A80946 /* LEWatchLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEWatchLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DB128C19CD403700A80946 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3DB128E19CD403700A80946 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3DB129019CD403700A80946 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3DB129419CD403700A80946 /* LEWatchLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LEWatchLayout-Info.plist"; sourceTree = "<group>"; };
+		B3DB129619CD403700A80946 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3DB129819CD403700A80946 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3DB129A19CD403700A80946 /* LEWatchLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LEWatchLayout-Prefix.pch"; sourceTree = "<group>"; };
+		B3DB129B19CD403700A80946 /* WLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLAppDelegate.h; sourceTree = "<group>"; };
+		B3DB129C19CD403700A80946 /* WLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLAppDelegate.m; sourceTree = "<group>"; };
+		B3DB129F19CD403700A80946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3DB12A119CD403700A80946 /* WLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLViewController.h; sourceTree = "<group>"; };
+		B3DB12A219CD403700A80946 /* WLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLViewController.m; sourceTree = "<group>"; };
+		B3DB12A419CD403700A80946 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3DB12AA19CD403700A80946 /* LEWatchLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEWatchLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DB12AB19CD403700A80946 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B3DB12B319CD403700A80946 /* LEWatchLayoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LEWatchLayoutTests-Info.plist"; sourceTree = "<group>"; };
+		B3DB12B519CD403700A80946 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3DB12B719CD403700A80946 /* LEWatchLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEWatchLayoutTests.m; sourceTree = "<group>"; };
+		B3DB12C219CD407800A80946 /* LECollectionViewWatchLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LECollectionViewWatchLayout.h; sourceTree = "<group>"; };
+		B3DB12C319CD407800A80946 /* LECollectionViewWatchLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LECollectionViewWatchLayout.m; sourceTree = "<group>"; };
+		B3DB12C619CD407800A80946 /* alarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alarm.png; sourceTree = "<group>"; };
+		B3DB12C719CD407800A80946 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		B3DB12C819CD407800A80946 /* dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dots.png; sourceTree = "<group>"; };
+		B3DB12C919CD407800A80946 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		B3DB12CA19CD407800A80946 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		B3DB12CB19CD407800A80946 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		B3DB12CC19CD407800A80946 /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
+		B3DB12CD19CD407800A80946 /* movie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movie.png; sourceTree = "<group>"; };
+		B3DB12CE19CD407800A80946 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		B3DB12CF19CD407800A80946 /* passbook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = passbook.png; sourceTree = "<group>"; };
+		B3DB12D019CD407800A80946 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		B3DB12D119CD407800A80946 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		B3DB12D219CD407800A80946 /* run.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run.png; sourceTree = "<group>"; };
+		B3DB12D319CD407800A80946 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		B3DB12D419CD407800A80946 /* spiral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spiral.png; sourceTree = "<group>"; };
+		B3DB12D519CD407800A80946 /* stopwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopwatch.png; sourceTree = "<group>"; };
+		B3DB12D619CD407800A80946 /* time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time.png; sourceTree = "<group>"; };
+		B3DB12D719CD407800A80946 /* translate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = translate.png; sourceTree = "<group>"; };
+		B3DB12D819CD407800A80946 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		B3DB12D919CD407800A80946 /* watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watch.png; sourceTree = "<group>"; };
+		B3DB12DA19CD407800A80946 /* weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weather.png; sourceTree = "<group>"; };
+		B3DB12DB19CD407800A80946 /* weixin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weixin.png; sourceTree = "<group>"; };
+		B3DB12F319CD41A600A80946 /* LETestImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LETestImageCell.h; sourceTree = "<group>"; };
+		B3DB12F419CD41A600A80946 /* LETestImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LETestImageCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3DB128619CD403700A80946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DB128F19CD403700A80946 /* CoreGraphics.framework in Frameworks */,
+				B3DB129119CD403700A80946 /* UIKit.framework in Frameworks */,
+				B3DB128D19CD403700A80946 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DB12A719CD403700A80946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DB12AC19CD403700A80946 /* XCTest.framework in Frameworks */,
+				B3DB12AE19CD403700A80946 /* UIKit.framework in Frameworks */,
+				B3DB12AD19CD403700A80946 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3DB128019CD403700A80946 = {
+			isa = PBXGroup;
+			children = (
+				B3DB129219CD403700A80946 /* LEWatchLayout */,
+				B3DB12B119CD403700A80946 /* LEWatchLayoutTests */,
+				B3DB128B19CD403700A80946 /* Frameworks */,
+				B3DB128A19CD403700A80946 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3DB128A19CD403700A80946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3DB128919CD403700A80946 /* LEWatchLayout.app */,
+				B3DB12AA19CD403700A80946 /* LEWatchLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3DB128B19CD403700A80946 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3DB128C19CD403700A80946 /* Foundation.framework */,
+				B3DB128E19CD403700A80946 /* CoreGraphics.framework */,
+				B3DB129019CD403700A80946 /* UIKit.framework */,
+				B3DB12AB19CD403700A80946 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3DB129219CD403700A80946 /* LEWatchLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B3DB12C119CD407800A80946 /* LEWatchLayout */,
+				B3DB12C419CD407800A80946 /* Resources */,
+				B3DB129B19CD403700A80946 /* WLAppDelegate.h */,
+				B3DB129C19CD403700A80946 /* WLAppDelegate.m */,
+				B3DB129E19CD403700A80946 /* Main.storyboard */,
+				B3DB12A119CD403700A80946 /* WLViewController.h */,
+				B3DB12A219CD403700A80946 /* WLViewController.m */,
+				B3DB12A419CD403700A80946 /* Images.xcassets */,
+				B3DB129319CD403700A80946 /* Supporting Files */,
+			);
+			path = LEWatchLayout;
+			sourceTree = "<group>";
+		};
+		B3DB129319CD403700A80946 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3DB129419CD403700A80946 /* LEWatchLayout-Info.plist */,
+				B3DB129519CD403700A80946 /* InfoPlist.strings */,
+				B3DB129819CD403700A80946 /* main.m */,
+				B3DB129A19CD403700A80946 /* LEWatchLayout-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3DB12B119CD403700A80946 /* LEWatchLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3DB12B719CD403700A80946 /* LEWatchLayoutTests.m */,
+				B3DB12B219CD403700A80946 /* Supporting Files */,
+			);
+			path = LEWatchLayoutTests;
+			sourceTree = "<group>";
+		};
+		B3DB12B219CD403700A80946 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3DB12B319CD403700A80946 /* LEWatchLayoutTests-Info.plist */,
+				B3DB12B419CD403700A80946 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3DB12C119CD407800A80946 /* LEWatchLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B3DB12F319CD41A600A80946 /* LETestImageCell.h */,
+				B3DB12F419CD41A600A80946 /* LETestImageCell.m */,
+				B3DB12C219CD407800A80946 /* LECollectionViewWatchLayout.h */,
+				B3DB12C319CD407800A80946 /* LECollectionViewWatchLayout.m */,
+			);
+			path = LEWatchLayout;
+			sourceTree = "<group>";
+		};
+		B3DB12C419CD407800A80946 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3DB12C519CD407800A80946 /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B3DB12C519CD407800A80946 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B3DB12C619CD407800A80946 /* alarm.png */,
+				B3DB12C719CD407800A80946 /* camera.png */,
+				B3DB12C819CD407800A80946 /* dots.png */,
+				B3DB12C919CD407800A80946 /* email.png */,
+				B3DB12CA19CD407800A80946 /* favicon.ico */,
+				B3DB12CB19CD407800A80946 /* map.png */,
+				B3DB12CC19CD407800A80946 /* message.png */,
+				B3DB12CD19CD407800A80946 /* movie.png */,
+				B3DB12CE19CD407800A80946 /* music.png */,
+				B3DB12CF19CD407800A80946 /* passbook.png */,
+				B3DB12D019CD407800A80946 /* phone.png */,
+				B3DB12D119CD407800A80946 /* photo.png */,
+				B3DB12D219CD407800A80946 /* run.png */,
+				B3DB12D319CD407800A80946 /* setting.png */,
+				B3DB12D419CD407800A80946 /* spiral.png */,
+				B3DB12D519CD407800A80946 /* stopwatch.png */,
+				B3DB12D619CD407800A80946 /* time.png */,
+				B3DB12D719CD407800A80946 /* translate.png */,
+				B3DB12D819CD407800A80946 /* twitter.png */,
+				B3DB12D919CD407800A80946 /* watch.png */,
+				B3DB12DA19CD407800A80946 /* weather.png */,
+				B3DB12DB19CD407800A80946 /* weixin.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3DB128819CD403700A80946 /* LEWatchLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3DB12BB19CD403700A80946 /* Build configuration list for PBXNativeTarget "LEWatchLayout" */;
+			buildPhases = (
+				B3DB128519CD403700A80946 /* Sources */,
+				B3DB128619CD403700A80946 /* Frameworks */,
+				B3DB128719CD403700A80946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEWatchLayout;
+			productName = LEWatchLayout;
+			productReference = B3DB128919CD403700A80946 /* LEWatchLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3DB12A919CD403700A80946 /* LEWatchLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3DB12BE19CD403700A80946 /* Build configuration list for PBXNativeTarget "LEWatchLayoutTests" */;
+			buildPhases = (
+				B3DB12A619CD403700A80946 /* Sources */,
+				B3DB12A719CD403700A80946 /* Frameworks */,
+				B3DB12A819CD403700A80946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3DB12B019CD403700A80946 /* PBXTargetDependency */,
+			);
+			name = LEWatchLayoutTests;
+			productName = LEWatchLayoutTests;
+			productReference = B3DB12AA19CD403700A80946 /* LEWatchLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3DB128119CD403700A80946 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Leo;
+				TargetAttributes = {
+					B3DB12A919CD403700A80946 = {
+						TestTargetID = B3DB128819CD403700A80946;
+					};
+				};
+			};
+			buildConfigurationList = B3DB128419CD403700A80946 /* Build configuration list for PBXProject "LEWatchLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3DB128019CD403700A80946;
+			productRefGroup = B3DB128A19CD403700A80946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3DB128819CD403700A80946 /* LEWatchLayout */,
+				B3DB12A919CD403700A80946 /* LEWatchLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3DB128719CD403700A80946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DB12EC19CD407800A80946 /* stopwatch.png in Resources */,
+				B3DB12EB19CD407800A80946 /* spiral.png in Resources */,
+				B3DB12E219CD407800A80946 /* map.png in Resources */,
+				B3DB12F219CD407800A80946 /* weixin.png in Resources */,
+				B3DB12E419CD407800A80946 /* movie.png in Resources */,
+				B3DB12E819CD407800A80946 /* photo.png in Resources */,
+				B3DB12A519CD403700A80946 /* Images.xcassets in Resources */,
+				B3DB12ED19CD407800A80946 /* time.png in Resources */,
+				B3DB12DD19CD407800A80946 /* alarm.png in Resources */,
+				B3DB12EE19CD407800A80946 /* translate.png in Resources */,
+				B3DB12E119CD407800A80946 /* favicon.ico in Resources */,
+				B3DB12E519CD407800A80946 /* music.png in Resources */,
+				B3DB129719CD403700A80946 /* InfoPlist.strings in Resources */,
+				B3DB12A019CD403700A80946 /* Main.storyboard in Resources */,
+				B3DB12DE19CD407800A80946 /* camera.png in Resources */,
+				B3DB12E619CD407800A80946 /* passbook.png in Resources */,
+				B3DB12E719CD407800A80946 /* phone.png in Resources */,
+				B3DB12EA19CD407800A80946 /* setting.png in Resources */,
+				B3DB12EF19CD407800A80946 /* twitter.png in Resources */,
+				B3DB12DF19CD407800A80946 /* dots.png in Resources */,
+				B3DB12E019CD407800A80946 /* email.png in Resources */,
+				B3DB12F019CD407800A80946 /* watch.png in Resources */,
+				B3DB12E319CD407800A80946 /* message.png in Resources */,
+				B3DB12F119CD407800A80946 /* weather.png in Resources */,
+				B3DB12E919CD407800A80946 /* run.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DB12A819CD403700A80946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DB12B619CD403700A80946 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3DB128519CD403700A80946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DB12A319CD403700A80946 /* WLViewController.m in Sources */,
+				B3DB129919CD403700A80946 /* main.m in Sources */,
+				B3DB12F519CD41A600A80946 /* LETestImageCell.m in Sources */,
+				B3DB12DC19CD407800A80946 /* LECollectionViewWatchLayout.m in Sources */,
+				B3DB129D19CD403700A80946 /* WLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DB12A619CD403700A80946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DB12B819CD403700A80946 /* LEWatchLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3DB12B019CD403700A80946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3DB128819CD403700A80946 /* LEWatchLayout */;
+			targetProxy = B3DB12AF19CD403700A80946 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3DB129519CD403700A80946 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3DB129619CD403700A80946 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3DB129E19CD403700A80946 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3DB129F19CD403700A80946 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3DB12B419CD403700A80946 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3DB12B519CD403700A80946 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3DB12B919CD403700A80946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3DB12BA19CD403700A80946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3DB12BC19CD403700A80946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEWatchLayout/LEWatchLayout-Prefix.pch";
+				INFOPLIST_FILE = "LEWatchLayout/LEWatchLayout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3DB12BD19CD403700A80946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEWatchLayout/LEWatchLayout-Prefix.pch";
+				INFOPLIST_FILE = "LEWatchLayout/LEWatchLayout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3DB12BF19CD403700A80946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LEWatchLayout.app/LEWatchLayout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEWatchLayout/LEWatchLayout-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LEWatchLayoutTests/LEWatchLayoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B3DB12C019CD403700A80946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LEWatchLayout.app/LEWatchLayout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LEWatchLayout/LEWatchLayout-Prefix.pch";
+				INFOPLIST_FILE = "LEWatchLayoutTests/LEWatchLayoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3DB128419CD403700A80946 /* Build configuration list for PBXProject "LEWatchLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DB12B919CD403700A80946 /* Debug */,
+				B3DB12BA19CD403700A80946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3DB12BB19CD403700A80946 /* Build configuration list for PBXNativeTarget "LEWatchLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DB12BC19CD403700A80946 /* Debug */,
+				B3DB12BD19CD403700A80946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3DB12BE19CD403700A80946 /* Build configuration list for PBXNativeTarget "LEWatchLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DB12BF19CD403700A80946 /* Debug */,
+				B3DB12C019CD403700A80946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3DB128119CD403700A80946 /* Project object */;
+}
